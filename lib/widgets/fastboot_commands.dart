@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../services/fastboot_service.dart';
 
 class FastbootCommands extends StatefulWidget {
+  const FastbootCommands({super.key});
+
   @override
   _FastbootCommandsState createState() => _FastbootCommandsState();
 }

@@ -31,6 +31,7 @@ class MainApp extends StatelessWidget {
           body: TabBarView(
             children: [
               AdbOperations(),
+              // Container(),
               FastbootOperations(),
             ],
           ),
@@ -42,6 +43,8 @@ class MainApp extends StatelessWidget {
 
 class AdbOperations extends StatelessWidget {
   final AdbService adbService = AdbService();
+
+  AdbOperations({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -58,6 +61,8 @@ class AdbOperations extends StatelessWidget {
 
 class FastbootOperations extends StatelessWidget {
   final FastbootService fastbootService = FastbootService();
+
+  FastbootOperations({super.key});
 
   @override
   Widget build(BuildContext context) {

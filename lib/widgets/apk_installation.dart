@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../services/adb_service.dart';
 
 class ApkInstallation extends StatefulWidget {
+  const ApkInstallation({super.key});
+
   @override
   _ApkInstallationState createState() => _ApkInstallationState();
 }

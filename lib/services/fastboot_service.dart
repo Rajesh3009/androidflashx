@@ -1,5 +1,5 @@
-import 'package:process_run/process_run.dart';
-import 'package:process_run/src/result.dart';
+import 'dart:io';
+
 
 class FastbootService {
   Future<ProcessResult> executeFastbootCommand(List<String> arguments) async {

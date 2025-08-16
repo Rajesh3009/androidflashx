@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../services/adb_service.dart';
 
 class AdbCommands extends StatefulWidget {
+  const AdbCommands({super.key});
+
   @override
   _AdbCommandsState createState() => _AdbCommandsState();
 }

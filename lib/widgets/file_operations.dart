@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../services/adb_service.dart';
 
 class FileOperations extends StatefulWidget {
+  const FileOperations({super.key});
+
   @override
   _FileOperationsState createState() => _FileOperationsState();
 }
